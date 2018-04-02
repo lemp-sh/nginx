@@ -391,3 +391,21 @@ Description: RTMP support for Nginx
   - Stream relay support via a push or pull model;
   - Integrated stream recording;
   - and more.
+
+Package: libnginx-mod-ct
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Certificate Transparency support for Nginx
+ This module adds support for the TLS signed_certificate_timestamp extension to
+ nginx, which is one of the mechanisms supported by Google's Certificate
+ Transparency project to deliver Signed Certificate Timestamps to TLS clients.
+
+Package: libnginx-mod-http-brotli-filter
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: brotli compression support for Nginx
+ Brotli is a generic-purpose lossless compression algorithm that compresses data
+ using a combination of a modern variant of the LZ77 algorithm, Huffman coding
+ and 2nd order context modeling, with a compression ratio comparable to the best
+ currently available general-purpose compression methods. It is similar in speed
+ with deflate but offers more dense compression.
