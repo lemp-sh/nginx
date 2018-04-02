@@ -76,3 +76,7 @@ Module: http-brotli-filter
 Homepage: https://github.com/lempsh/ngx_brotli
 Version: 0.0.1
 
+Module: http-geoip2
+Homepage: https://github.com/leev/ngx_http_geoip2_module
+Version: 2.0
+
