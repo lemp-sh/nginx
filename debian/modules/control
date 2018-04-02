@@ -68,3 +68,11 @@ Homepage: https://github.com/arut/nginx-rtmp-module
 Files-Excluded: test
 Version: 1.2.1
 
+Module: ct
+Homepage: https://github.com/grahamedgecombe/nginx-ct
+Version: 1.3.2
+
+Module: http-brotli-filter
+Homepage: https://github.com/lempsh/ngx_brotli
+Version: 0.0.1
+
