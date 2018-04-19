@@ -13,6 +13,7 @@ Build-Depends: debhelper (>= 10),
                liblua5.1-0-dev [!i386 !amd64 !kfreebsd-i386 !armel !armhf !powerpc !powerpcspe !mips !mipsel],
                libluajit-5.1-dev [i386 amd64 kfreebsd-i386 armel armhf powerpc powerpcspe mips mipsel],
                libmhash-dev,
+               libmaxminddb-dev,
                libpam0g-dev,
                libpcre3-dev,
                libperl-dev,
@@ -409,3 +410,9 @@ Description: brotli compression support for Nginx
  and 2nd order context modeling, with a compression ratio comparable to the best
  currently available general-purpose compression methods. It is similar in speed
  with deflate but offers more dense compression.
+
+Package: libnginx-mod-http-geoip2
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Geoip2 mod of Nginx
+ Geoip2 mod of Nginx

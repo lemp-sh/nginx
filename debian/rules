@@ -139,7 +139,8 @@ extras_configure_flags := \
 			--add-dynamic-module=$(MODULESDIR)/http-upstream-fair \
 			--add-dynamic-module=$(MODULESDIR)/http-subs-filter \
 			--add-dynamic-module=$(MODULESDIR)/http-brotli-filter \
-			--add-dynamic-module=$(MODULESDIR)/ct
+			--add-dynamic-module=$(MODULESDIR)/ct \
+			--add-dynamic-module=$(MODULESDIR)/http-geoip2
 
 %:
 	dh $@ --without autoreconf
